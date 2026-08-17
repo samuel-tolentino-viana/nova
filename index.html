@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="conteudo-cabecalho">
+            <h1>NOVA</h1>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#" class="secao-principal">Produtos</a>
+                <a href="#">Sobre</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="apresentacao">
+            <p class="ano">COLEÇÃO 2026</p>
+            <h2>Encontre o que combina com você</h2>
+            <p class="introducao">Use os filtros para explorar nossa coleção por categorias e encontrar peças que combinam com o seu estilo.</p>
+        </section>
+        <section class="catalogos">
+            <button class="filtro-categoria selecionado" id="todos" data-categoria="todos" type="button">Todos</button>
+            <button class="filtro-categoria" id="roupas" data-categoria="roupas" type="button">Roupas</button>
+            <button class="filtro-categoria" id="calcados" data-categoria="calcados" type="button">Calçados</button>
+            <button class="filtro-categoria" id="acessorios" data-categoria="acessorios" type="button">Acessórios</button>
+            <button class="alterar" type="button">Horizontal<span class="material-symbols-outlined">swap_horiz</span></button>
+        </section>
+        <section class="catalogo-de-roupas">
+            <article class="card-horizontal roupas todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/camisa-branca.png" alt="Camiseta branca">
+                <div class="mudar-direcao-conteudo">
+                    <p>ROUPAS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Camisa Branca</h3>
+                        <p class="preco">R$ 91,90</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal calcados todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/tenis-branco.png" alt="Tenis branco">
+                <div class="mudar-direcao-conteudo">
+                    <p>CALÇADOS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Tênis Branco</h3>
+                        <p class="preco">R$ 129,90</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal calcados todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/tenis-esportivo.jpg" alt="Calçado">
+                <div class="mudar-direcao-conteudo">
+                    <p>CALÇADOS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Tênis Esportivo</h3>
+                        <p class="preco">R$ 105,50</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal acessorios todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/bolsa.jpg" alt="Bolsa">
+                <div class="mudar-direcao-conteudo">
+                    <p>ACESSÓRIOS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Bolsa</h3>
+                        <p class="preco">R$ 220,00</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal acessorios todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/apple-watch.jpg" alt="Relógio">
+                <div class="mudar-direcao-conteudo">
+                    <p>ACESSÓRIOS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Apple Watch</h3>
+                        <p class="preco">R$ 182,90</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal roupas todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/terno.jpg" alt="Terno">
+                <div class="mudar-direcao-conteudo">
+                    <p>ROUPAS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Terno</h3>
+                        <p class="preco">R$ 500,00</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal calcados todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/sapato-preto.jpg" alt="Tênis">
+                <div class="mudar-direcao-conteudo">
+                    <p>CALÇADOS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Calçado preto</h3>
+                        <p class="preco">R$ 89,90</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal acessorios todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/anel.jpg" alt="Anel">
+                <div class="mudar-direcao-conteudo">
+                    <p>ACESSÓRIOS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Anel</h3>
+                        <p class="preco">R$ 115,50</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card-horizontal roupas todos card">
+                <img class="img-horizontal imagens" src="imagens/roupas/camisa-cinza.jpg" alt="Camisa religiosa">
+                <div class="mudar-direcao-conteudo">
+                    <p>ROUPAS</p>
+                    <div class="informacoes-produto info">
+                        <h3 class="classificacao-do-produto">Camisa Cinza</h3>
+                        <p class="preco">R$ 112,90</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Preços deduzidos, sem valores e itens reais. Apenas teste.</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
